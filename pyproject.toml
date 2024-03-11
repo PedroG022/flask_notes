@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fnotes"
+version = "0.1.0"
+description = ""
+authors = ["Pedro  <55058149+PedroG022@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.2"
+pony = "^0.7.17"
+flask-restful = "^0.3.10"
+flask-login = "^0.6.3"
+bcrypt = "^4.1.2"
+flask-jwt-extended = "^4.6.0"
+flask-cors = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
